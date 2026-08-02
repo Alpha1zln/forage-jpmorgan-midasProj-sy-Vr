@@ -21,6 +21,26 @@ Rather than simply completing the tasks, this repository documents the concepts,
 
 ---
 
+## Project Tasks
+
+### Task 1 – Project Setup
+Configured the Spring Boot development environment using Java 17, Maven, and IntelliJ IDEA. Explored the existing project scaffold, added required dependencies, updated application configuration, and verified the setup by running automated tests.
+
+### Task 2 – Kafka Integration
+Integrated Apache Kafka into the application by implementing a Kafka Listener to consume transaction events. Learned asynchronous messaging, event-driven architecture, JSON deserialization, and tested the integration using Embedded Kafka.
+
+### Task 3 – H2 Database Integration
+Integrated an H2 in-memory database using Spring Data JPA. Implemented transaction validation, entity relationships, persistence logic, and automatic balance updates while ensuring only valid transactions were stored.
+
+### Task 4 – REST API Integration
+Integrated the application with an external Incentive REST API using Spring's `RestTemplate`. Processed incentive responses, incorporated them into transaction workflows, and updated user balances accordingly.
+
+### Task 5 – REST API Controller
+Developed a REST controller exposing a `GET /balance` endpoint to retrieve user balances in JSON format. Completed the end-to-end transaction processing pipeline by integrating Kafka, database persistence, external APIs, and REST endpoints into a cohesive Spring Boot application.
+
+
+---
+
 ## System Architecture
 
 ```
